@@ -12,7 +12,7 @@ endm
 
 .data
 
-msg1 db 0dh,0ah,"CSE$"
+msg1 db "CSE", 0dh, 0ah, "$"
 
 .code
 
