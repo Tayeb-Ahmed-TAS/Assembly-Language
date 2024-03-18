@@ -37,7 +37,7 @@ main proc
     
     cmp ah,00
     
-    jz s2
+    jz s2 ; jz means jump if zero
     
     print msg3
     
