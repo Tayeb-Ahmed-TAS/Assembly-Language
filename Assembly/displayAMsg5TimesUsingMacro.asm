@@ -29,8 +29,8 @@ main proc
     
     print msg1
     
-    ja loop1
-    jmp Exit
+    ja loop1 ; ja means jump if unsigned above
+    jmp Exit ; jmp performs unconditional jump
     
     Exit:
     
