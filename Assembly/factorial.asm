@@ -6,8 +6,8 @@
 
 main proc
     
-    mov cl,3
-    mov al,1
+    mov cl,3 ; The integer whose factorial we want to calculate
+    mov al,1 ; 3! = 3*2*1 this 1
     
     fact:
     mul cl
