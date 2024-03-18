@@ -21,18 +21,13 @@ main proc
     mov ax,@data
     mov ds,ax
     mov cx,5
+    mov al,1
     
     loop1:
     
-    dec cx
-    cmp cx,00
-    
+    inc al
     print msg1
-    
-    ja loop1 ; ja means jump if unsigned above
-    jmp Exit ; jmp performs unconditional jump
-    
-    Exit:
+    loop loop1
     
     mov ah,4ch
     int 21h
