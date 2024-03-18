@@ -18,7 +18,7 @@ main proc
     mov al,num1
     
     cmp al,num2
-    jge skip1
+    jge skip1 ; Here, jge means Jump If Greater Than or Equal
     mov al,num2
     
     skip1:
