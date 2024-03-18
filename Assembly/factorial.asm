@@ -9,10 +9,10 @@ main proc
     mov cl,3
     mov al,1
     
-    top:
+    fact:
     mul cl
     dec cl
-    jnz top
+    jnz fact ; The JNZ instruction transfers control to the specified address (fact) if the value in the accumulator is not 0
     
     add al,30h
     mov dl,al
