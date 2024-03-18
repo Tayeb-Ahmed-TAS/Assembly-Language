@@ -32,10 +32,10 @@ main proc
      ; Convert to uppercase (ASCII manipulation)
     
     cmp al,'a' ; Jump if less than 'a' (not lowercase)
-    jl endc
+    jl endc    ; jl means Jump If Less Than
     
     cmp al,'z' ; Jump if greater than 'z' (not lowercase)
-    jg endc
+    jg endc    ; jg means Jump If Greater Than
     
     sub al,32  ; Convert to uppercase by subtracting 32
     mov bl,al
