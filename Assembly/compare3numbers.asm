@@ -28,8 +28,8 @@ main proc
     
     skip2:
     add al,30h 
-    mov dl,al
     mov ah,2h
+    mov dl,al
     int 21h
     
     mov ah,4ch
