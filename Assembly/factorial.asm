@@ -12,7 +12,7 @@ main proc
     fact:
     mul cl
     dec cl
-    jnz fact ; The JNZ instruction transfers control to the specified address (fact) if the value in the accumulator is not 0
+    jnz fact ; jnz means Jump If Not Zero
     
     add al,30h
     mov dl,al
